@@ -1,0 +1,28 @@
+{
+  "name": "web-optimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "axios": "^1.7.2",
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "generic-pool": "^3.9.0",
+    "jsdom": "^24.1.0",
+    "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.7.0",
+    "punycode": "^2.3.1",
+    "puppeteer": "^22.13.1",
+    "sharp": "^0.33.4"
+  }
+}
